@@ -22,7 +22,7 @@
   instance.channel = channel;
   [registrar addApplicationDelegate:instance];
   [registrar addMethodCallDelegate:instance channel:channel];
-  [instance registerRemoteNotification];
+  // [instance registerRemoteNotification];
 }
 
 - (id)init {
